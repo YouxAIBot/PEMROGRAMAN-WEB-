@@ -254,7 +254,7 @@ class _TambahBarangPageState extends State<TambahBarangPage> {
             const SizedBox(height: 16),
 
             DropdownButtonFormField<String>(
-              value: _kategori,
+              initialValue: _kategori,
               decoration: const InputDecoration(
                 labelText: 'Kategori',
                 border: OutlineInputBorder(),
